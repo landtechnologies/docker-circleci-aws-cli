@@ -1,4 +1,4 @@
-FROM circleci/node:6.10.3
+FROM circleci/node:8.11.3
 USER root
 
 RUN apt-get update && apt-get install -y python3.4 python3-pip
